@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030A895D239F93A500E68407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A895C239F93A500E68407 /* AppDelegate.swift */; };
+		030A8964239F93A600E68407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030A8963239F93A600E68407 /* Assets.xcassets */; };
+		030A8967239F93A600E68407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030A8965239F93A600E68407 /* LaunchScreen.storyboard */; };
+		030A8972239F93A600E68407 /* ZebraLabelPrinterSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A8971239F93A600E68407 /* ZebraLabelPrinterSwiftTests.swift */; };
+		030A897D239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A897C239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.swift */; };
+		030A898B239F93C600E68407 /* PrintLabelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A898A239F93C500E68407 /* PrintLabelController.swift */; };
+		030A898D239F93D000E68407 /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A898C239F93D000E68407 /* libZSDK_API.a */; };
+		030A8990239F93EB00E68407 /* ZebraPrintManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A898F239F93EB00E68407 /* ZebraPrintManager.swift */; };
+		030A89AA239F94BE00E68407 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A89A9239F94BE00E68407 /* Extensions.swift */; };
+		030A89AD239F997400E68407 /* NavigationTitleWithLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A89AC239F997400E68407 /* NavigationTitleWithLoader.swift */; };
+		030A89B2239F9B4400E68407 /* QuantityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A89B0239F9B4400E68407 /* QuantityCell.swift */; };
+		030A89B3239F9B4400E68407 /* QuantityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030A89B1239F9B4400E68407 /* QuantityCell.xib */; };
+		030A89B6239F9BCE00E68407 /* PrintLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030A89B4239F9BCE00E68407 /* PrintLabelCell.swift */; };
+		030A89B7239F9BCE00E68407 /* PrintLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030A89B5239F9BCE00E68407 /* PrintLabelCell.xib */; };
+		030A89BB239F9EEC00E68407 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A89BA239F9EEB00E68407 /* ExternalAccessory.framework */; };
+		030A89BD239F9EF800E68407 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030A89BC239F9EF800E68407 /* CoreBluetooth.framework */; };
+		0395E063239FBA420057EC12 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0395E062239FBA420057EC12 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030A896E239F93A600E68407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030A8951239F93A500E68407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030A8958239F93A500E68407;
+			remoteInfo = ZebraLabelPrinterSwift;
+		};
+		030A8979239F93A600E68407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030A8951239F93A500E68407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030A8958239F93A500E68407;
+			remoteInfo = ZebraLabelPrinterSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030A8959239F93A500E68407 /* ZebraLabelPrinterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZebraLabelPrinterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A895C239F93A500E68407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030A8963239F93A600E68407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030A8966239F93A600E68407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030A8968239F93A600E68407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A896D239F93A600E68407 /* ZebraLabelPrinterSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebraLabelPrinterSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A8971239F93A600E68407 /* ZebraLabelPrinterSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebraLabelPrinterSwiftTests.swift; sourceTree = "<group>"; };
+		030A8973239F93A600E68407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A8978239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZebraLabelPrinterSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A897C239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZebraLabelPrinterSwiftUITests.swift; sourceTree = "<group>"; };
+		030A897E239F93A600E68407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030A898A239F93C500E68407 /* PrintLabelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLabelController.swift; sourceTree = "<group>"; };
+		030A898C239F93D000E68407 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZSDK_API.a; sourceTree = "<group>"; };
+		030A898F239F93EB00E68407 /* ZebraPrintManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZebraPrintManager.swift; sourceTree = "<group>"; };
+		030A8992239F940700E68407 /* ZplPrintMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZplPrintMode.h; sourceTree = "<group>"; };
+		030A8993239F940700E68407 /* GraphicsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsUtil.h; sourceTree = "<group>"; };
+		030A8994239F940700E68407 /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
+		030A8995239F940700E68407 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MfiBtPrinterConnection.h; sourceTree = "<group>"; };
+		030A8996239F940700E68407 /* MagCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagCardReader.h; sourceTree = "<group>"; };
+		030A8997239F940700E68407 /* NetworkDiscoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDiscoverer.h; sourceTree = "<group>"; };
+		030A8998239F940700E68407 /* ZebraPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinter.h; sourceTree = "<group>"; };
+		030A8999239F940700E68407 /* FieldDescriptionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldDescriptionData.h; sourceTree = "<group>"; };
+		030A899A239F940700E68407 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUtil.h; sourceTree = "<group>"; };
+		030A899B239F940700E68407 /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterFactory.h; sourceTree = "<group>"; };
+		030A899C239F940700E68407 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatusMessages.h; sourceTree = "<group>"; };
+		030A899D239F940700E68407 /* ResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseValidator.h; sourceTree = "<group>"; };
+		030A899E239F940700E68407 /* DiscoveredPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinter.h; sourceTree = "<group>"; };
+		030A899F239F940700E68407 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraPrinterConnection.h; sourceTree = "<group>"; };
+		030A89A0239F940700E68407 /* SGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGD.h; sourceTree = "<group>"; };
+		030A89A1239F940700E68407 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
+		030A89A2239F940700E68407 /* ZebraErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZebraErrorCode.h; sourceTree = "<group>"; };
+		030A89A3239F940700E68407 /* PrinterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrinterStatus.h; sourceTree = "<group>"; };
+		030A89A4239F940700E68407 /* FormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatUtil.h; sourceTree = "<group>"; };
+		030A89A5239F940700E68407 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TcpPrinterConnection.h; sourceTree = "<group>"; };
+		030A89A6239F940700E68407 /* SmartCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartCardReader.h; sourceTree = "<group>"; };
+		030A89A9239F94BE00E68407 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		030A89AC239F997400E68407 /* NavigationTitleWithLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTitleWithLoader.swift; sourceTree = "<group>"; };
+		030A89B0239F9B4400E68407 /* QuantityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityCell.swift; sourceTree = "<group>"; };
+		030A89B1239F9B4400E68407 /* QuantityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuantityCell.xib; sourceTree = "<group>"; };
+		030A89B4239F9BCE00E68407 /* PrintLabelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintLabelCell.swift; sourceTree = "<group>"; };
+		030A89B5239F9BCE00E68407 /* PrintLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrintLabelCell.xib; sourceTree = "<group>"; };
+		030A89B8239F9E2200E68407 /* ZebraLabelPrinterSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZebraLabelPrinterSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		030A89BA239F9EEB00E68407 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		030A89BC239F9EF800E68407 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		0395E062239FBA420057EC12 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030A8956239F93A500E68407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0395E063239FBA420057EC12 /* MobileCoreServices.framework in Frameworks */,
+				030A89BD239F9EF800E68407 /* CoreBluetooth.framework in Frameworks */,
+				030A89BB239F9EEC00E68407 /* ExternalAccessory.framework in Frameworks */,
+				030A898D239F93D000E68407 /* libZSDK_API.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A896A239F93A600E68407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A8975239F93A600E68407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030A8950239F93A500E68407 = {
+			isa = PBXGroup;
+			children = (
+				030A898C239F93D000E68407 /* libZSDK_API.a */,
+				030A89B8239F9E2200E68407 /* ZebraLabelPrinterSwift-Bridging-Header.h */,
+				030A89AF239F9A9800E68407 /* CustomCell */,
+				030A89AB239F993D00E68407 /* CustomClass */,
+				030A89A8239F94AE00E68407 /* Extension */,
+				030A8991239F940700E68407 /* ZebraSDK */,
+				030A898E239F93DB00E68407 /* ZebraPrinterManager */,
+				030A895B239F93A500E68407 /* ZebraLabelPrinterSwift */,
+				030A8970239F93A600E68407 /* ZebraLabelPrinterSwiftTests */,
+				030A897B239F93A600E68407 /* ZebraLabelPrinterSwiftUITests */,
+				030A895A239F93A500E68407 /* Products */,
+				030A89B9239F9EEB00E68407 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		030A895A239F93A500E68407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030A8959239F93A500E68407 /* ZebraLabelPrinterSwift.app */,
+				030A896D239F93A600E68407 /* ZebraLabelPrinterSwiftTests.xctest */,
+				030A8978239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030A895B239F93A500E68407 /* ZebraLabelPrinterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				030A895C239F93A500E68407 /* AppDelegate.swift */,
+				030A898A239F93C500E68407 /* PrintLabelController.swift */,
+				030A8963239F93A600E68407 /* Assets.xcassets */,
+				030A8965239F93A600E68407 /* LaunchScreen.storyboard */,
+				030A8968239F93A600E68407 /* Info.plist */,
+			);
+			path = ZebraLabelPrinterSwift;
+			sourceTree = "<group>";
+		};
+		030A8970239F93A600E68407 /* ZebraLabelPrinterSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				030A8971239F93A600E68407 /* ZebraLabelPrinterSwiftTests.swift */,
+				030A8973239F93A600E68407 /* Info.plist */,
+			);
+			path = ZebraLabelPrinterSwiftTests;
+			sourceTree = "<group>";
+		};
+		030A897B239F93A600E68407 /* ZebraLabelPrinterSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030A897C239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.swift */,
+				030A897E239F93A600E68407 /* Info.plist */,
+			);
+			path = ZebraLabelPrinterSwiftUITests;
+			sourceTree = "<group>";
+		};
+		030A898E239F93DB00E68407 /* ZebraPrinterManager */ = {
+			isa = PBXGroup;
+			children = (
+				030A898F239F93EB00E68407 /* ZebraPrintManager.swift */,
+			);
+			path = ZebraPrinterManager;
+			sourceTree = "<group>";
+		};
+		030A8991239F940700E68407 /* ZebraSDK */ = {
+			isa = PBXGroup;
+			children = (
+				030A8992239F940700E68407 /* ZplPrintMode.h */,
+				030A8993239F940700E68407 /* GraphicsUtil.h */,
+				030A8994239F940700E68407 /* ToolsUtil.h */,
+				030A8995239F940700E68407 /* MfiBtPrinterConnection.h */,
+				030A8996239F940700E68407 /* MagCardReader.h */,
+				030A8997239F940700E68407 /* NetworkDiscoverer.h */,
+				030A8998239F940700E68407 /* ZebraPrinter.h */,
+				030A8999239F940700E68407 /* FieldDescriptionData.h */,
+				030A899A239F940700E68407 /* FileUtil.h */,
+				030A899B239F940700E68407 /* ZebraPrinterFactory.h */,
+				030A899C239F940700E68407 /* PrinterStatusMessages.h */,
+				030A899D239F940700E68407 /* ResponseValidator.h */,
+				030A899E239F940700E68407 /* DiscoveredPrinter.h */,
+				030A899F239F940700E68407 /* ZebraPrinterConnection.h */,
+				030A89A0239F940700E68407 /* SGD.h */,
+				030A89A1239F940700E68407 /* DiscoveredPrinterNetwork.h */,
+				030A89A2239F940700E68407 /* ZebraErrorCode.h */,
+				030A89A3239F940700E68407 /* PrinterStatus.h */,
+				030A89A4239F940700E68407 /* FormatUtil.h */,
+				030A89A5239F940700E68407 /* TcpPrinterConnection.h */,
+				030A89A6239F940700E68407 /* SmartCardReader.h */,
+			);
+			path = ZebraSDK;
+			sourceTree = "<group>";
+		};
+		030A89A8239F94AE00E68407 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				030A89A9239F94BE00E68407 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		030A89AB239F993D00E68407 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				030A89AC239F997400E68407 /* NavigationTitleWithLoader.swift */,
+			);
+			path = CustomClass;
+			sourceTree = "<group>";
+		};
+		030A89AF239F9A9800E68407 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				030A89B0239F9B4400E68407 /* QuantityCell.swift */,
+				030A89B1239F9B4400E68407 /* QuantityCell.xib */,
+				030A89B4239F9BCE00E68407 /* PrintLabelCell.swift */,
+				030A89B5239F9BCE00E68407 /* PrintLabelCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		030A89B9239F9EEB00E68407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0395E062239FBA420057EC12 /* MobileCoreServices.framework */,
+				030A89BC239F9EF800E68407 /* CoreBluetooth.framework */,
+				030A89BA239F9EEB00E68407 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030A8958239F93A500E68407 /* ZebraLabelPrinterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A8981239F93A600E68407 /* Build configuration list for PBXNativeTarget "ZebraLabelPrinterSwift" */;
+			buildPhases = (
+				030A8955239F93A500E68407 /* Sources */,
+				030A8956239F93A500E68407 /* Frameworks */,
+				030A8957239F93A500E68407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZebraLabelPrinterSwift;
+			productName = ZebraLabelPrinterSwift;
+			productReference = 030A8959239F93A500E68407 /* ZebraLabelPrinterSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030A896C239F93A600E68407 /* ZebraLabelPrinterSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A8984239F93A600E68407 /* Build configuration list for PBXNativeTarget "ZebraLabelPrinterSwiftTests" */;
+			buildPhases = (
+				030A8969239F93A600E68407 /* Sources */,
+				030A896A239F93A600E68407 /* Frameworks */,
+				030A896B239F93A600E68407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030A896F239F93A600E68407 /* PBXTargetDependency */,
+			);
+			name = ZebraLabelPrinterSwiftTests;
+			productName = ZebraLabelPrinterSwiftTests;
+			productReference = 030A896D239F93A600E68407 /* ZebraLabelPrinterSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030A8977239F93A600E68407 /* ZebraLabelPrinterSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A8987239F93A600E68407 /* Build configuration list for PBXNativeTarget "ZebraLabelPrinterSwiftUITests" */;
+			buildPhases = (
+				030A8974239F93A600E68407 /* Sources */,
+				030A8975239F93A600E68407 /* Frameworks */,
+				030A8976239F93A600E68407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030A897A239F93A600E68407 /* PBXTargetDependency */,
+			);
+			name = ZebraLabelPrinterSwiftUITests;
+			productName = ZebraLabelPrinterSwiftUITests;
+			productReference = 030A8978239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030A8951239F93A500E68407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sachin Pampannavar";
+				TargetAttributes = {
+					030A8958239F93A500E68407 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					030A896C239F93A600E68407 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 030A8958239F93A500E68407;
+					};
+					030A8977239F93A600E68407 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 030A8958239F93A500E68407;
+					};
+				};
+			};
+			buildConfigurationList = 030A8954239F93A500E68407 /* Build configuration list for PBXProject "ZebraLabelPrinterSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030A8950239F93A500E68407;
+			productRefGroup = 030A895A239F93A500E68407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030A8958239F93A500E68407 /* ZebraLabelPrinterSwift */,
+				030A896C239F93A600E68407 /* ZebraLabelPrinterSwiftTests */,
+				030A8977239F93A600E68407 /* ZebraLabelPrinterSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030A8957239F93A500E68407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A8967239F93A600E68407 /* LaunchScreen.storyboard in Resources */,
+				030A89B3239F9B4400E68407 /* QuantityCell.xib in Resources */,
+				030A89B7239F9BCE00E68407 /* PrintLabelCell.xib in Resources */,
+				030A8964239F93A600E68407 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A896B239F93A600E68407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A8976239F93A600E68407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030A8955239F93A500E68407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A89AA239F94BE00E68407 /* Extensions.swift in Sources */,
+				030A89B2239F9B4400E68407 /* QuantityCell.swift in Sources */,
+				030A898B239F93C600E68407 /* PrintLabelController.swift in Sources */,
+				030A89AD239F997400E68407 /* NavigationTitleWithLoader.swift in Sources */,
+				030A89B6239F9BCE00E68407 /* PrintLabelCell.swift in Sources */,
+				030A8990239F93EB00E68407 /* ZebraPrintManager.swift in Sources */,
+				030A895D239F93A500E68407 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A8969239F93A600E68407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A8972239F93A600E68407 /* ZebraLabelPrinterSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030A8974239F93A600E68407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A897D239F93A600E68407 /* ZebraLabelPrinterSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030A896F239F93A600E68407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030A8958239F93A500E68407 /* ZebraLabelPrinterSwift */;
+			targetProxy = 030A896E239F93A600E68407 /* PBXContainerItemProxy */;
+		};
+		030A897A239F93A600E68407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030A8958239F93A500E68407 /* ZebraLabelPrinterSwift */;
+			targetProxy = 030A8979239F93A600E68407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030A8965239F93A600E68407 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030A8966239F93A600E68407 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030A897F239F93A600E68407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030A8980239F93A600E68407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030A8982239F93A600E68407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9UKB32QG;
+				INFOPLIST_FILE = ZebraLabelPrinterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.ZebraLabelPrinterSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZebraLabelPrinterSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030A8983239F93A600E68407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9UKB32QG;
+				INFOPLIST_FILE = ZebraLabelPrinterSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.ZebraLabelPrinterSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZebraLabelPrinterSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		030A8985239F93A600E68407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9UKB32QG;
+				INFOPLIST_FILE = ZebraLabelPrinterSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.ZebraLabelPrinterSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebraLabelPrinterSwift.app/ZebraLabelPrinterSwift";
+			};
+			name = Debug;
+		};
+		030A8986239F93A600E68407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9UKB32QG;
+				INFOPLIST_FILE = ZebraLabelPrinterSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.ZebraLabelPrinterSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZebraLabelPrinterSwift.app/ZebraLabelPrinterSwift";
+			};
+			name = Release;
+		};
+		030A8988239F93A600E68407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9UKB32QG;
+				INFOPLIST_FILE = ZebraLabelPrinterSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.ZebraLabelPrinterSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZebraLabelPrinterSwift;
+			};
+			name = Debug;
+		};
+		030A8989239F93A600E68407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9UKB32QG;
+				INFOPLIST_FILE = ZebraLabelPrinterSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sachin.ZebraLabelPrinterSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZebraLabelPrinterSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030A8954239F93A500E68407 /* Build configuration list for PBXProject "ZebraLabelPrinterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A897F239F93A600E68407 /* Debug */,
+				030A8980239F93A600E68407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030A8981239F93A600E68407 /* Build configuration list for PBXNativeTarget "ZebraLabelPrinterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A8982239F93A600E68407 /* Debug */,
+				030A8983239F93A600E68407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030A8984239F93A600E68407 /* Build configuration list for PBXNativeTarget "ZebraLabelPrinterSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A8985239F93A600E68407 /* Debug */,
+				030A8986239F93A600E68407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030A8987239F93A600E68407 /* Build configuration list for PBXNativeTarget "ZebraLabelPrinterSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A8988239F93A600E68407 /* Debug */,
+				030A8989239F93A600E68407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030A8951239F93A500E68407 /* Project object */;
+}
