@@ -72,10 +72,16 @@ class PrintLabelController: UIViewController {
       }
       
       func getPrinterLanguage() {
+          //Returns string either "ZPL" or "CPCL"
           DispatchQueue.global().async {
            let printerLanguage = printManager.getPrinterLanguage()
          }
       }
+      
+      func getPrinterConnectionStatus() {
+           let isConnected = printManager.isConnected
+      }
+}
 
 }
 
