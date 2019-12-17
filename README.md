@@ -12,7 +12,7 @@ Zebra label printer example project for iOS writen in swift using a static libra
 ### Usage
 
 ```swift
-import import UIKit
+import UIKit
 import ZebraMultiOSLabelPrinterSwift
 
 class PrintLabelController: UIViewController {
