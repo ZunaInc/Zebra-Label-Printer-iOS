@@ -114,6 +114,6 @@ extension PrintLabelController: EAAccessoryManagerConnectionStatusDelegate {
 
 ### Contact Us
 
-[link **Zuna Inc**](https://zunaco.com)
-Email : <sales@zunaco.com>
+- [**Zuna Inc**](https://zunaco.com)
+- Email : <sales@zunaco.com>
 
