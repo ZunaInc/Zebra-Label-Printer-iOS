@@ -1,6 +1,6 @@
 # Zebra-Label-Printer-iOS
 
-Zebra label printer example project for iOS writen in swift using a static library built on top of Zebra Label Printer SDK.
+Zebra label printer example project for iOS written in swift using a static library built on top of Zebra Label Printer SDK.
 
 ### Requirement
 - iOS 10 or above.
@@ -9,7 +9,7 @@ Zebra label printer example project for iOS writen in swift using a static libra
 
 ### Limitations
 - Works with only BT or BLE.
-- Supprorts only 2x1 and 3x2 label sizes.
+- Supports only 2x1 and 3x2 label sizes.
 - Supports only ZPL Language. 
 - Tested on Zebra ZD420.
 
@@ -18,7 +18,7 @@ Zebra label printer example project for iOS writen in swift using a static libra
 - Download the sample project.
 - Locate libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule(contains architecture files) directectory
 - Create a new group in your new or existing project 
-- Add libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule to the created group
+- Add libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule directory to the created group
 - Open build setting -> search for "Library Search Paths" and set the path to "$(PROJECT_DIR)/Created-Group-Name". If you have added directly to your project, the path would "$(PROJECT_DIR)"
 - Open build setting -> search for Swift Compiler - Search Path and set the "Import Paths" to "$(PROJECT_DIR)/Created-Group-Name". If you have added directly to your project, the path would "$(PROJECT_DIR)"
 
