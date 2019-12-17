@@ -1,6 +1,6 @@
 # Zebra-Label-Printer-iOS
 
-Zebra label printer example project for iOS written in swift using a static library built on top of Zebra Label Printer SDK.
+Zebra label printer example project for iOS written in swift using a static library built on top of Zebra Label Printer SDK. Tested and working on Zebra ZD420.
 
 ### Requirement
 - iOS 10 or above.
@@ -11,7 +11,6 @@ Zebra label printer example project for iOS written in swift using a static libr
 - Works with only BT or BLE.
 - Supports only 2x1 and 3x2 label sizes.
 - Supports only ZPL Language. 
-- Tested on Zebra ZD420.
 
 
 ### Installation
