@@ -9,17 +9,17 @@ Zebra label printer example project for iOS written in swift using a static libr
 
 ### Limitations
 - Works with only BT or BLE.
-- Supports only 2x1 and 3x2 label sizes.
+- Supports only 2" x 1" and 3" x 2" label sizes.
 - Supports only ZPL Language. 
 
 
 ### Installation
 - Download the sample project.
-- Locate libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule(contains architecture files) directectory
-- Create a new group in your new or existing project 
-- Add libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule directory to the created group
-- Open build setting -> search for "Library Search Paths" and set the path to "$(PROJECT_DIR)/Created-Group-Name". If you have added directly to your project, the path would be "$(PROJECT_DIR)"
-- Open build setting -> search for Swift Compiler - Search Path and set the "Import Paths" to "$(PROJECT_DIR)/Created-Group-Name". If you have added directly to your project, the path would be "$(PROJECT_DIR)"
+- Locate libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule(contains architecture files) directory.
+- Create a new group in your new or existing project.
+- Add libZebraMultiOSLabelPrinterSwift.a file and ZebraMultiOSLabelPrinterSwift.swiftmodule directory to the created group.
+- Open build setting -> search for "Library Search Paths" and set the path to "$(PROJECT_DIR)/Created-Group-Name". If you have added directly to your project, the path would be "$(PROJECT_DIR)".
+- Open build setting -> search for Swift Compiler - Search Path and set the "Import Paths" to "$(PROJECT_DIR)/Created-Group-Name". If you have added directly to your project, the path would be "$(PROJECT_DIR)".
 
 
 
