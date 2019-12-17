@@ -8,7 +8,7 @@ Zebra label printer example project for iOS writen in swift using a static libra
 - Runs only on device (Simulator not supported).
 
 ### Limitations
-- Works with only BT and BLE.
+- Works with only BT or BLE.
 - Supprorts only 2x1 and 3x2 label sizes.
 - Supports only ZPL Language. 
 - Tested on Zebra ZD420.
