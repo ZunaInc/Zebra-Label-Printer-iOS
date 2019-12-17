@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import CoreBluetooth
+import ZebraMultiOSLabelPrinterSwift
 
 let quantityCell = "QuantityCell"
 let printLabelCell = "PrintLabelCell"
@@ -15,7 +15,7 @@ let printLabelCell = "PrintLabelCell"
 class PrintLabelController: UITableViewController {
     
     //MARK: Properties
-    var printManager = ZebraPrintManager.sharedInstance
+    var printManager = ZebraMultiOSLabelPrinterSwift.shared
     var skuBarcode = "1234567890"
     var numberOfPrints = 1
     var skuBarcodeImage: UIImage!
@@ -158,7 +158,8 @@ class PrintLabelController: UITableViewController {
         let labelSize = self.labelSizeEnumValues[self.selectedLabelSizeIndex]
         DispatchQueue.global().async {
             self.navigationTitleView?.isLoading = true
-            self.printManager.printLabelAndBarcode(product: product, numberOfPrints: self.numberOfPrints, labelSize: labelSize)
+            //self.printManager.printLabelAndBarcode(product: product, numberOfPrints: self.numberOfPrints, labelSize: labelSize)
+            self.printManager.printSampleLabelAndBarcode(numberOfPrints: self.numberOfPrints, labelSize: labelSize)
         }
         
     }
@@ -277,22 +278,22 @@ extension PrintLabelController {
 
 //Zebra printer *********
 extension PrintLabelController: EAAccessoryManagerConnectionStatusDelegate {
+    func didChangePrinterConnectionStatus() {
+        DispatchQueue.main.async {
+            self.tableView.tableHeaderView = self.tableViewHeaderView()
+        }
+    }
+    
+    func didFailedToPrint(error: PrintError) {
+        print(error.rawValue)
+        DispatchQueue.main.async {
+            self.navigationTitleView?.isLoading = false
+        }
+    }
+    
     func didPrintSuccessfully() {
         DispatchQueue.main.async {
             self.navigationTitleView?.isLoading = false
-        }
-    }
-    
-    func didFailedToPrint() {
-        DispatchQueue.main.async {
-            self.navigationTitleView?.isLoading = false
-        }
-    }
-    
-    
-    func changeLabelStatus() {
-        DispatchQueue.main.async {
-            self.tableView.tableHeaderView = self.tableViewHeaderView()
         }
     }
     

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ZebraMultiOSLabelPrinterSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -28,7 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
-        ZebraPrintManager.sharedInstance.closeConnectionToPrinter()
+        ZebraMultiOSLabelPrinterSwift.shared.closeConnectionToPrinter()
     }
 
 
