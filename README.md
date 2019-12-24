@@ -108,7 +108,7 @@ extension PrintLabelController: EAAccessoryManagerConnectionStatusDelegate {
 ```
 ### Sample Output Label
 
-![alt text](https://github.com/ZunaInc/Zebra-Label-Printer-iOS/blob/master/Media/sampleOutPutLable.png)
+![](Media/sampleOutPutLable.png)
 
 
 ### Contact Us
